@@ -1,9 +1,9 @@
 ﻿{
     "format_version": 2,
     "header": {
-        "description": "§9PACK DESCRIPTION §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
-        "name": "§1Alien's §ePack name §4(V1.0.0)",
-        "uuid": "UUID1 HERE",
+        "description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
+        "name": "§1Alien's §eStatistic tracker§4(V1.0.0)",
+        "uuid": "66010f78-79f2-4dfc-8738-cba45aafb3ac",
         "version": [
             1,
             0,
@@ -17,9 +17,9 @@
     },
     "modules": [
         {
-            "description": "§9PACK DESCRIPTION §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
-            "type": "resources | data",
-            "uuid": "UUID2 HERE",
+            "description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0",
+            "type": "data",
+            "uuid": "a0ea8935-d417-40e1-a3ab-986368ac6a15",
             "version": [
                 1,
                 0,
