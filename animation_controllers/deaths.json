@@ -1,0 +1,28 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.deaths": {
+			"initial_state": "alive",
+			"states": {
+				"alive": {
+					"transitions": [
+						{
+							"dead": "!query.is_alive"
+						}
+					],
+					"on_exit": [
+						"/scoreboard objectives add deaths dummy Deaths",
+						"/scoreboard players add @s[tag=!DoNotTrack] deaths 1"
+					]
+				},
+				"dead": {
+					"transitions": [
+						{
+							"alive": "query.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}
