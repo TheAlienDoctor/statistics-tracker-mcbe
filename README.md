@@ -22,8 +22,7 @@ This Bedrock addon will track many statistics for each individual player using s
 - If there is a player who you do not want to have there statistic tracked (e.g. and alt/camera account), then you can run the following command:
 {{/tag [playername] add DoNottrack}}
 - Check TODO.md if you want to know more about some of the other statistics that I am working on adding support for.
-- 
-
+- On the pause screen playerlist menu, AFK players will be displayed at the top. Technically you can change this using scoreboard commands however it is not recommended.
 
 ## Credits
 - DrAV for the original AFK display from BedrockTweaks.net (Modified my me)
