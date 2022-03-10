@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.afk_check": {
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"afk": "!q.is_moving && q.is_alive"
+						}
+					]
+				},
+				"afk": {
+					"animations": [
+						"afk_display"
+					],
+					"transitions": [
+						{
+							"default": "q.is_moving"
+						}
+					],
+					"on_exit": [
+						"/scoreboard players reset @s afk_display"
+					]
+				}
+			}
+		}
+	}
+}

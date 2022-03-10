@@ -8,11 +8,14 @@
             "is_experimental": false,
             "scripts": {
                 "animate": [
-                    "deaths"
+                    "deaths",
+                    "afk_check"
                 ]
             },
             "animations": {
-                "deaths": "controller.animation.deaths"
+                "deaths": "controller.animation.deaths",
+                "afk_check": "controller.animation.afk_check",
+                "afk_timer": "animation.bp.player.afk_timer"
             }
         },
         "component_groups": {
