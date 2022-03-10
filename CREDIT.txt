@@ -1,0 +1,3 @@
+- DrAV for original AFK display/timer code from https://bedrocktweaks.net
+- Vanilla tweaks (Java edition) for original concept of this addon, in there "track raw statistics" and "track statistics" datapack https://vanillatweaks.net
+- The idea of function commands to display the scoreboards was inspired by PNAPEs "Time and Death Counter functions" behaviour pack https://youtube.com/c/PNAPE
