@@ -20,7 +20,8 @@
 						}
 					],
 					"on_exit": [
-						"/scoreboard players reset @s afk_display"
+						"/scoreboard players reset @s afk_display",
+						"/tag @s remove afk"
 					]
 				}
 			}
