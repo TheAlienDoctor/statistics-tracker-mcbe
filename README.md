@@ -22,6 +22,6 @@ This Bedrock addon will track many statistics for each individual player using s
 | Deaths      | Tracks the amount of time you have died |
 | TimeSpentAFK | How long you have been AFK for |
 
-##LICENSE
+## LICENSE
 - Please check the LICENSE.txt file if you wish to use this pack or parts of this pack for your own.
 - Please also remember to include a credits.txt file if you use any code from anyone listed there.
