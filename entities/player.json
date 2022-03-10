@@ -15,7 +15,8 @@
             "animations": {
                 "deaths": "controller.animation.deaths",
                 "afk_check": "controller.animation.afk_check",
-                "afk_display": "animation.player.afk_display"
+                "afk_display": "animation.player.afk_display",
+                "afk_time": "animation.alien.afk_time"
             }
         },
         "component_groups": {

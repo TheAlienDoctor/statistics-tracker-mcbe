@@ -1,0 +1,15 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.alien.afk_time": {
+            "loop": true,
+            "animation_length": 60.0,
+            "timeline": {
+                "0.0": [
+                    "/scoreboard objectives add afk_time dummy TimeSpentAFK",
+                    "/scoreboard players add @a[tag=afk,tag=!DoNotTrack] afk_time 1"
+                ]
+            }
+        }
+    }
+}
