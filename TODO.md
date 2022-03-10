@@ -1,4 +1,4 @@
 ## TODO List
-- Day and/or time counter
+- Time counter
 - Implement AFK display
-- Every query that would make sense to be added (wll update this list in a few hours :p)
+- Add AFK tag and stop players with the AFK tag from having certain stats tracked
