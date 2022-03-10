@@ -11,7 +11,8 @@
                     "/scoreboard objectives setdisplay list afk_display",
                     "/scoreboard players add @s[tag=!DoNotTrack] afk_time 1",
                     "/scoreboard players reset * afk_display",
-                    "/execute @a[scores={afk_time=300..}] ~ ~ ~ scoreboard players add @s afk_display 1"
+                    "/execute @a[scores={afk_time=300..}] ~ ~ ~ scoreboard players add @s afk_display 1",
+                    "/tag @a[scores={afk_time=300...},tag=!DoNotTrack] add afk"
                 ]
             }
         }

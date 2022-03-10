@@ -9,8 +9,8 @@
 							"afk": "!q.is_moving && q.is_alive"
 						}
 					],
-					"on_exit": [
-						"/tag @a[scores={afk_time=300..}] add afk"
+					"on_entry": [
+						"/tag @s remove afk"
 					]
 				},
 				"afk": {
