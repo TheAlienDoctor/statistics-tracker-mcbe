@@ -15,7 +15,7 @@
             "animations": {
                 "deaths": "controller.animation.deaths",
                 "afk_check": "controller.animation.afk_check",
-                "afk_timer": "animation.bp.player.afk_timer"
+                "afk_display": "animation.player.afk_display"
             }
         },
         "component_groups": {

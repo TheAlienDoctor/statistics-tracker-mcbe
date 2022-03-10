@@ -24,6 +24,7 @@
 					],
 					"on_exit": [
 						"/scoreboard players reset @s afk_display",
+						"/scoreboard players reset @s afk_check",
 						"/tag @s remove afk"
 					]
 				}

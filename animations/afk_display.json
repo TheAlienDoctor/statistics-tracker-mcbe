@@ -1,18 +1,18 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.bp.player.afk_display": {
+        "animation.player.afk_display": {
             "loop": true,
             "animation_length": 1.0,
             "timeline": {
                 "0.0": [
-                    "/scoreboard objectives add afk_time dummy TimeSpentAFk",
+                    "/scoreboard objectives add afk_check dummy",
                     "/scoreboard objectives add afk_display dummy \"§l§1Player §eAFK§r\"",
                     "/scoreboard objectives setdisplay list afk_display",
-                    "/scoreboard players add @s[tag=!DoNotTrack] afk_time 1",
+                    "/scoreboard players add @s afk_check 1",
                     "/scoreboard players reset * afk_display",
-                    "/execute @a[scores={afk_time=300..}] ~ ~ ~ scoreboard players add @s afk_display 1",
-                    "/tag @a[scores={afk_time=300...},tag=!DoNotTrack] add afk"
+                    "/execute @a[scores={afk_check=300..}] ~ ~ ~ scoreboard players add @s afk_display 1",
+                    "/tag @a[scores={afk_check=300..}] add afk"
                 ]
             }
         }
