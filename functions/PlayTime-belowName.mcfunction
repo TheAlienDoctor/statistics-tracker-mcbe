@@ -1,0 +1,1 @@
+scoreboard objectives setdisplay belowname play_time

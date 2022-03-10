@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.alien.play_time": {
+			"states": {
+				"playing": {
+					"animations": [
+						"play_time_score"
+					],
+					"transitions": [
+						{
+							"not_playing": "!query.is_alive"
+						}
+					]
+				},
+				"not_playing": {
+					"transitions": [
+						{
+							"playing": "q.is_alive"
+						}
+					]
+				}
+			}
+		}
+	}
+}
