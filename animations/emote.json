@@ -3,7 +3,7 @@
     "animations": {
         "animation.alien.emote": {
             "loop": true,
-            "animation_length": 60.0,
+            "animation_length": 1.0,
             "timeline": {
                 "0.0": [
                     "/scoreboard objectives add emote_time dummy TimeSpentEmoting",
