@@ -17,11 +17,12 @@ This Bedrock addon will track many statistics for each individual player using s
 - On the pause screen playerlist menu, AFK players will be displayed at the top. Technically you can change this using scoreboard commands however it is not recommended.
 
 ## Current statistics tracked
-| Name      | Description |
-| ----------- | ----------- |
-| Deaths      | Tracks the amount of time you have died |
-| TimeSpentAFK | How long you have been AFK for |
-| AFKDisplay | Displays any players that are AFK, as well as how long they have been AFK for in that specific AFK session |
+| Name      | Description | Units |
+| ----------- | ----------- | ----------- |
+| Deaths      | Tracks the amount of time you have died | N/A |
+| TimeSpentAFK | How long you have been AFK for | Minutes |
+| AFKDisplay | Displays any players that are AFK, as well as how long they have been AFK for in that specific AFK session | Minutes (starting from 5 minutes) |
+| PlayTime | The total amount of tim you have been playing for | Minutes |
 
 ## LICENSE
 - Please check the LICENSE.txt file if you wish to use this pack or parts of this pack for your own.
