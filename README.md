@@ -22,7 +22,9 @@ This Bedrock addon will track many statistics for each individual player using s
 | Deaths      | Tracks the amount of time you have died | N/A |
 | TimeSpentAFK | How long you have been AFK for | Minutes |
 | AFKDisplay | Displays any players that are AFK, as well as how long they have been AFK for in that specific AFK session | Minutes (starting from 5 minutes) |
-| PlayTime | The total amount of tim you have been playing for | Minutes |
+| PlayTime | The total amount of time you have been playing for | Minutes |
+| TimesEmoted | The amount of times a player has emoted | N/A |
+| TimeSpentEmoting | Total amount of time you have spent emoting | Seconds |
 
 ## LICENSE
 - Please check the LICENSE.txt file if you wish to use this pack or parts of this pack for your own.

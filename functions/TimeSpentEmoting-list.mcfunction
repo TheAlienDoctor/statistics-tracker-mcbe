@@ -1,0 +1,1 @@
+scoreboard objectives setdisplay list emote_time

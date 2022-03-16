@@ -1,0 +1,31 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.alien.emote": {
+			"initial_state": "not_emoting",
+			"states": {
+				"not_emoting": {
+					"transitions": [
+						{
+							"emoting": "query.is_emoting"
+						}
+					]
+				},
+				"emoting": {
+					"animations": [
+						"emote_score"
+					],
+					"transitions": [
+						{
+							"not_emoting": "!query.is_emoting"
+						}
+					],
+					"on_entry": [
+						"/scoreboard objectives add times_emoted dummy TimesEmoted",
+						"/scoreboard players add @s[tag=!DoNotTrack] times_emoted 1"
+					]
+				}
+			}
+		}
+	}
+}
