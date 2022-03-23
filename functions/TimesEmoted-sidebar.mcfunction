@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay sidebar times_emoted

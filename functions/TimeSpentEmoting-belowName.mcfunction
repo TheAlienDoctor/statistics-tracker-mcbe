@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay belowname emote_time
