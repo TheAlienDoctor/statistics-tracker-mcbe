@@ -18,7 +18,6 @@
                 "afk_check": "controller.animation.afk_check",
                 "afk": "animation.alien.afk",
                 "afk_time": "animation.alien.afk_time",
-                "afk_session_time": "animation.alien.afk_session_time",
                 "play_time_trigger": "controller.animation.alien.play_time",
                 "play_time_score": "animation.alien.play_time"
             }

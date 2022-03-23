@@ -16,8 +16,7 @@
 				"afk": {
 					"animations": [
 						"afk",
-						"afk_time",
-						"afk_session_time"
+						"afk_time"
 					],
 					"transitions": [
 						{
