@@ -1,1 +1,1 @@
-scoreboard objectives setdisplay sidebar afk_time
+scoreboard objectives setdisplay list afk_time
