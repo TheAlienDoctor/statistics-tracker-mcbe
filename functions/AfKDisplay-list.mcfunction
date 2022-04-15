@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay list afk_display
