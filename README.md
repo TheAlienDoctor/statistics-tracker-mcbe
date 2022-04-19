@@ -14,7 +14,6 @@ This Bedrock addon will track many statistics for each individual player using s
 - If there is a player who you do not want to have there statistic tracked (e.g. and alt/camera account), then you can run the following command:
 ``/tag [playername] add DoNotTrack``
 - Check TODO.md if you want to know more about some of the other statistics that I am working on adding support for.
-- On the pause screen playerlist menu, AFK players will be displayed at the top. Technically you can change this using scoreboard commands however it is not recommended.
 
 ## Current statistics tracked
 | Name      | Description | Units |
@@ -23,7 +22,8 @@ This Bedrock addon will track many statistics for each individual player using s
 | TimeSpentAFK | The total amount of time you have been AFK for | Minutes |
 | AFKDisplay | Displays any players that are AFK, as well as how long they have been AFK for in that specific AFK session | Seconds (only starts after 5 mins) |
 | PlayTime | The total amount of time you have been playing for | Minutes |
+| TimeSpentMoving | The total amount of time you have been moving | Seconds |
 
 ## LICENSE
 - Please check the LICENSE.txt file if you wish to use this pack or parts of this pack for your own.
-- Please also remember to include a credits.txt file if you use any code from anyone listed there.
+- Please also remember that some parts of this pack use code that may be published under another license, so if you use any code from that make sure you follow the terms of that license as well. You can find a list of credits in the CREDITS.txt file.
