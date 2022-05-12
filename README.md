@@ -1,6 +1,11 @@
 # Statistics tracker addon for Minecraft Bedrock edition
 This Bedrock addon will track many statistics for each individual player using scoreboards.
 
+## Contributing
+Any and all contributions are welcome, if there is a statistic that you think you know how it can be tracked feel free to fork and open a pull request :)
+If posible, try and and track statistics using the same format I have aready used for the other stats.
+You will also recieve credit in the CREDIT.txt file, along with a link to a scoial link of your choice :D
+
 ## Instructions
 - To display a statistic on the sidebar, you can use the following command: ``/function [StatistcName-sidebar]``
 - To display a statistic beneath a player name, you can use the following command: ``/function [StatistcName-belowName]``
