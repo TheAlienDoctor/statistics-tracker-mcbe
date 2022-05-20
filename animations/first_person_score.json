@@ -1,0 +1,15 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.alien.first_person_score": {
+            "loop": true,
+            "animation_length": 60.0,
+            "timeline": {
+                "0.0": [
+                    "/scoreboard objectives add first_person dummy TimeSpentInFirstPerson",
+                    "/scoreboard players add @s[tag=!afk,tag=!DoNotTrack] first_person 1"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.alien.perspective": {
+			"initial_state": "first_person",
+			"states": {
+				"first_person": {
+					"animations": [
+						"first_person_score"
+					],
+					"transitions": [
+						{
+							"third_person": "!query.is_first_person"
+						}
+					]
+				},
+				"third_person": {
+					"animations":[
+						"third_person_score"
+					],
+					"transitions": [
+						{
+							"first_person": "query.is_first_person"
+						}
+					]
+				}
+			}
+		}
+	}
+}

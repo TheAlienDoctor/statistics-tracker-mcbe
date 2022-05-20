@@ -12,7 +12,8 @@
                     "afk_check",
                     "play_time_trigger",
                     "movement_trigger",
-                    "jump_trigger"
+                    "jump_trigger",
+                    "perspective_trigger"
                 ]
             },
             "animations": {
@@ -23,7 +24,10 @@
                 "play_time_trigger": "controller.animation.alien.play_time",
                 "play_time_score": "animation.alien.play_time",
                 "movement_trigger": "controller.animation.alien.movement",
-                "jump_trigger": "controller.animation.alien.jump"
+                "jump_trigger": "controller.animation.alien.jump",
+                "perspective_trigger": "controller.animation.alien.perspective",
+                "first_person_score": "animation.alien.first_person",
+                "third_person_score": "animation.alien.third_person"
             }
         },
         "component_groups": {
