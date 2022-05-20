@@ -16,8 +16,8 @@
                 ]
             },
             "animations": {
-                "deaths": "controller.animation.deaths",
-                "afk_check": "controller.animation.afk_check",
+                "deaths": "controller.animation.alien.deaths",
+                "afk_check": "controller.animation.alien.afk_check",
                 "afk": "animation.alien.afk",
                 "afk_time": "animation.alien.afk_time",
                 "play_time_trigger": "controller.animation.alien.play_time",

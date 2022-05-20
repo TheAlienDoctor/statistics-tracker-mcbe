@@ -1,7 +1,7 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.deaths": {
+		"controller.animation.alien.deaths": {
 			"initial_state": "alive",
 			"states": {
 				"alive": {
