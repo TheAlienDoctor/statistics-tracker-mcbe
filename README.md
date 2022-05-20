@@ -27,7 +27,7 @@ You will also recieve credit in the CREDIT.txt file, along with a link to a scoi
 | TimeSpentAFK | The total amount of time you have been AFK for | Minutes |
 | AFKDisplay | Displays any players that are AFK, as well as how long they have been AFK for in that specific AFK session | Seconds (only starts after 5 mins) |
 | PlayTime | The total amount of time you have been playing for | Minutes |
-| TimeSpentMoving | The total amount of time you have been moving | Seconds |
+| IsMoving | The total amount of time you have been moving | 1=Yes, 0=No |
 | TimesJumped | Total amout of times a player has jumped | N/A |
 
 ## LICENSE

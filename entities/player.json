@@ -23,7 +23,6 @@
                 "play_time_trigger": "controller.animation.alien.play_time",
                 "play_time_score": "animation.alien.play_time",
                 "movement_trigger": "controller.animation.alien.movement",
-                "movement_score": "animation.alien.movement",
                 "jump_trigger": "controller.animation.alien.jump"
             }
         },

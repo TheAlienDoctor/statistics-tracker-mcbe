@@ -1,24 +1,33 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.alien.alien.movement": {
+		"controller.animation.alien.moving": {
 			"initial_state": "idle",
 			"states": {
-				"moving": {
-					"transitions": [
-						{
-							"idle": "!query.is_moving"
-						}
-					],
-					"animations": [
-						"movement_score"
-					]
-				},
 				"idle": {
 					"transitions": [
 						{
-							"moving": "query.is_moving"
+							"moving": "query.is_jumping"
 						}
+					],
+					"on_entry": [
+						"/scoreboard objectives add moving dummy IsMoving",
+						"/scoreboard players remove @s[tag=!DoNotTrack] moving 1"
+					]
+				},
+				"jumping": {
+					"transitions": [
+						{
+							"default": "!query.is_jumping"
+						}
+					],
+					"on_entry": [
+						"/scoreboard objectives add moving dummy IsMoving",
+						"/scoreboard players add @s[tag=!DoNotTrack] moving 1"
+					],
+					"on_exit": [
+						"/scoreboard objectives add moving dummy IsMoving",
+						"/scoreboard players remove @s[tag=!DoNotTrack] moving 1"
 					]
 				}
 			}
