@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay sidebar first_person

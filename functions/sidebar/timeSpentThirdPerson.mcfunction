@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay sidebar third_person

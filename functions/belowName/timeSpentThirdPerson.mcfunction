@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay belowname  third_person
