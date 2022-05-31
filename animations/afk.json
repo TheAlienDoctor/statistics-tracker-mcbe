@@ -7,7 +7,7 @@
             "timeline": {
                 "0.0": [
                     "/scoreboard objectives add afk_check dummy",
-                    "/scoreboard objectives add afk_display dummy \"§l§1Player §eAFK§r\"",
+                    "/scoreboard objectives add afk_display dummy \"Player AFK\"",
                     "/scoreboard players add @s afk_check 1",
                     "/tag @a[scores={afk_check=300..}] add afk",
                     "/scoreboard players add @s[tag=afk] afk_display 1"
