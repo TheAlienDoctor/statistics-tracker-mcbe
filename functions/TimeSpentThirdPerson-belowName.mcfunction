@@ -1,1 +1,0 @@
-scoreboard objectives belowname list third_person
