@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay list times_jumped

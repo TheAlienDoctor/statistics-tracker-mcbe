@@ -1,1 +1,0 @@
-scoreboard objectives setdisplay list play_time

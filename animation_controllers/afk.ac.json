@@ -1,32 +1,30 @@
 {
 	"format_version": "1.10.0",
 	"animation_controllers": {
-		"controller.animation.alien.afk_check": {
+		"controller.animation.alien.afk": {
 			"states": {
-				"default": {
+				"moving": {
 					"transitions": [
 						{
 							"afk": "!q.is_moving && q.is_alive"
 						}
 					],
 					"on_entry": [
-						"/tag @s remove afk"
+						"/scoreboard players reset @s afk_check"
 					]
 				},
 				"afk": {
 					"animations": [
-						"afk",
-						"afk_time"
+						"alien_afkCheck.a",
+						"alien_afkTime.a"
 					],
 					"transitions": [
 						{
-							"default": "q.is_moving"
+							"moving": "q.is_moving"
 						}
 					],
 					"on_exit": [
-						"/scoreboard players reset @s afk_display",
-						"/scoreboard players reset @s afk_check",
-						"/tag @s remove afk"
+						"/scoreboard players reset @s afk_check"
 					]
 				}
 			}

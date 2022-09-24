@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
-        "name": "§1Alien's §eStatistic tracker§4(V1.0.0)§r",
+        "name": "§1Alien's §eStatistic tracker §4(V1.0.0)§r",
         "uuid": "66010f78-79f2-4dfc-8738-cba45aafb3ac",
         "version": [
             1,
@@ -11,7 +11,7 @@
         ],
         "min_engine_version": [
             1,
-            18,
+            19,
             0
         ]
     },
