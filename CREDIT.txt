@@ -1,3 +1,4 @@
-- DrAV for original AFK display/timer code from https://bedrocktweaks.net
+- DrAv0011 for part of AFK tracker: https://bedrocktweaks.net
+- Bedrock.dev people for the other part of the afk tracker: https://wiki.bedrock.dev/animation-controllers/afk-animation-controller.html
 - Vanilla tweaks (Java edition) for original concept of this addon, in their "track raw statistics"/"track statistics" datapack https://vanillatweaks.net
 - The idea of function commands to display the scoreboards was inspired by PNAPEs "Time and Death Counter functions" behaviour pack https://youtube.com/c/PNAPE

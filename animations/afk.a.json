@@ -1,18 +1,17 @@
 {
     "format_version": "1.8.0",
     "animations": {
-        "animation.alien.afkTime": {
+        "animation.alien.afk": {
             "loop": true,
             "animation_length": 60.0,
             "timeline": {
                 "0.0": [
-                    "/scoreboard objectives add afk_display dummy \"AFK Session Time\"",
-                    "/scoreboard objectives add afk dummy",
+                    "/scoreboard objectives add afkTime_display dummy \"AFK Session Time\"", //Couldn't use afkSession_Display because its too long :')
+                    "/scoreboard players add @s[tag=afk] afkTime_display 1",
                     "/scoreboard objectives add afkTotal_display dummy \"Total Time Spent AFK\"",
                     "/scoreboard objectives add afkTotal dummy",
-                    "/scoreboard players add @s[tag=afk,tag=!DoNotTrack] afk 1",
                     "/scoreboard players add @s[tag=afk,tag=!DoNotTrack] afkTotal 1",
-                    "/function updateScore"
+                    "/function alien/updateScore"
                 ]
             }
         }

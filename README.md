@@ -7,28 +7,24 @@ If posible, try and and track statistics using the same format I have aready use
 You will also recieve credit in the CREDIT.txt file, along with a link to a scoial link of your choice :D
 
 ## Instructions
-- To display a statistic on the sidebar, you can use the following command: ``/function [StatistcName-sidebar]``
-- To display a statistic beneath a player name, you can use the following command: ``/function [StatistcName-belowName]``
+- To display a statistic on the sidebar, you can use the following command: ``/function [sidebar/statisticName]``
+- To display a statistic beneath a player name, you can use the following command: ``/function [belowname/statisticName]``
+- To display a statistic on the online players list, you can use the following command: ``/function [list/statisticName]``
 - If you run the command with a different statistic, then it will <i>replace</i> the previous statistic.
-- To completly remove any statistic being shown on either of the positions, you can use the following command: ``/function [reset-sidebar]`` or ``/function [reset-belowName]``
+- To completly remove any statistic being shown on either of the positions, you can use the following command: ``/function [position/reset]`` (replace postion with the position of the statistic)
 - Please note that players need to be operator to run function commands. A way around this coud be using command blocks to run these functions when the player presses a button.
 
 ## Other information
 - For most statistics, afk players will not have there statistics tracked.
 - Due to limitations of Bedrock edition, the maximum amount of players that can be listed on the sidebar scoreboard is 15.
 - If there is a player who you do not want to have there statistic tracked (e.g. and alt/camera account), then you can run the following command:
-``/tag [playername] add DoNotTrack``
-- Check TODO.md if you want to know more about some of the other statistics that I am working on adding support for.
+``/tag [playername] add DoNotTrack`` - some stats have some exceptions like the afkSession time
 
 ## Current statistics tracked
 | Name      | Description | Units |
 | ----------- | ----------- | ----------- |
-| Deaths      | Tracks the amount of time you have died | N/A |
-| TimeSpentAFK | The total amount of time you have been AFK for | Minutes |
-| AFKDisplay | Displays any players that are AFK, as well as how long they have been AFK for in that specific AFK session | Seconds (only starts after 5 mins) |
-| PlayTime | The total amount of time you have been playing for | Minutes |
-| IsMoving | The total amount of time you have been moving | 1=Yes, 0=No |
-| TimesJumped | Total amout of times a player has jumped | N/A |
+| afkSessionTime | Displays how long the player has been AFK for in that specific session | Minutes |
+| timeSpentAfk | Total amount of time the player has AFK'ed for the lifetime of the world | Minutes |
 
 ## LICENSE
 - Please check the LICENSE.txt file if you wish to use this pack or parts of this pack for your own.

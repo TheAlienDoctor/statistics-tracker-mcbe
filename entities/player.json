@@ -13,8 +13,7 @@
             },
             "animations": {
                 "alien_afk.ac": "controller.animation.alien.afk",
-                "alien_afkCheck.a": "animation.alien.afkCheck",
-                "alien_afkTime.a": "animation.alien.afkTime"
+                "alien_afk.a": "animation.alien.afk"
             }
         },
         "component_groups": {

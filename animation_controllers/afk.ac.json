@@ -1,33 +1,49 @@
 {
-	"format_version": "1.10.0",
-	"animation_controllers": {
-		"controller.animation.alien.afk": {
-			"states": {
-				"moving": {
-					"transitions": [
-						{
-							"afk": "!q.is_moving && q.is_alive"
-						}
-					],
-					"on_entry": [
-						"/scoreboard players reset @s afk_check"
-					]
-				},
-				"afk": {
-					"animations": [
-						"alien_afkCheck.a",
-						"alien_afkTime.a"
-					],
-					"transitions": [
-						{
-							"moving": "q.is_moving"
-						}
-					],
-					"on_exit": [
-						"/scoreboard players reset @s afk_check"
-					]
-				}
-			}
-		}
-	}
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.alien.afk": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "stands_still": "!query.is_moving"
+                        }
+                    ]
+                },
+                "stands_still": {
+                    "on_entry": [
+                        "v.afk = q.life_time;"
+                    ],
+                    "transitions": [
+                        {
+                            "afk": "(q.life_time - v.afk) >= 300 && !q.is_moving"
+                        },
+                        {
+                            "default": "q.is_moving"
+                        }
+                    ]
+                },
+                "afk": {
+                    "on_entry": [
+                        "/tag @s add afk",
+                        "/title @a actionbar @s is now AFK"
+                    ],
+                    "animations": [
+                        "alien_afk.a"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "query.is_moving"
+                        }
+                    ],
+                    "on_exit": [
+                        "/tag @s remove afk",
+                        "/title @a actionbar @s is no longer AFK",
+                        "/scoreboard players reset @s afkTime_display"
+                    ]
+                }
+            }
+        }
+    }
 }
