@@ -8,12 +8,14 @@
             "is_experimental": false,
             "scripts": {
                 "animate": [
-                    "alien_afk.ac"
+                    "alien_afk.ac",
+                    "alien_deaths.ac"
                 ]
             },
             "animations": {
                 "alien_afk.ac": "controller.animation.alien.afk",
-                "alien_afk.a": "animation.alien.afk"
+                "alien_afk.a": "animation.alien.afk",
+                "alien_deaths.ac": "controller.animation.alien.deaths"
             }
         },
         "component_groups": {
