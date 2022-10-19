@@ -4,3 +4,6 @@
 
 scoreboard players reset * afkTotal_display
 execute @a ~~~ scoreboard players operation @s afkTotal_display = @s afkTotal
+
+scoreboard players reset * deaths_display
+execute @a ~~~ scoreboard players operation @s deaths_display = @s deaths

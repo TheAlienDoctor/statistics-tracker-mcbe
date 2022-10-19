@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.alien.afk": {
+            "initial_state": "alive",
+            "states": {
+                "alive": {
+                    "transitions": [
+                        {
+                            "dead": "!q.is_alive"
+                        }
+                    ]
+                },
+                "dead": {
+                    "on_entry": [
+                        "/scoreboard objectives add deaths_display dummy Deaths",
+                        "/scoreboard objectives add deaths dummy",
+                        "/scoreboard players add @s[tag=!DoNotTrack] deaths 1",
+                        "/function alien/updateScore"
+                    ],
+                    "transitions": [
+                        {
+                            "alive": "q.is_alive"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
