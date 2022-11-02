@@ -25,6 +25,24 @@
                 0,
                 0
             ]
+        },
+        {
+            "description": "Gametest Module",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "d8f4c9b3-9ceb-4c51-87fd-31e0cd72c34f",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "mojang-minecraft",
+            "version": "1.0.0-beta"
         }
     ]
 }
