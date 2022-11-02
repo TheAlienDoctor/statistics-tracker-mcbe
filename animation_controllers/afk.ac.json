@@ -5,6 +5,10 @@
             "initial_state": "default",
             "states": {
                 "default": {
+                    "on_exit": [
+                        "/tag @s remove afk",
+                        "/scoreboard players reset @s afkTime_display"
+                    ],
                     "transitions": [
                         {
                             "stands_still": "!query.is_moving"

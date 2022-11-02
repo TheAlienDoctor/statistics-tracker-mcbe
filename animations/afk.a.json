@@ -7,7 +7,8 @@
             "timeline": {
                 "0.0": [
                     "/scoreboard objectives add afkTime_display dummy \"AFK Session Time\"", //Couldn't use afkSession_Display because its too long :')
-                    "/scoreboard players add @s[tag=afk] afkTime_display 1",
+                    "/scoreboard objectives add afkTime dummy",
+                    "/scoreboard players add @s[tag=afk] afkTime 1",
                     "/scoreboard objectives add afkTotal_display dummy \"Total Time Spent AFK\"",
                     "/scoreboard objectives add afkTotal dummy",
                     "/scoreboard players add @s[tag=afk,tag=!DoNotTrack] afkTotal 1",
