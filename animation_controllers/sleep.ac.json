@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.alien.sleep": {
+			"initial_state": "awake",
+			"states": {
+				"awake": {
+					"transitions": [
+						{
+							"sleeping": "query.is_sleeping"
+						}
+					]
+				},
+				"sleeping": {
+					"on_entry": [
+						"/scoreboard objectives add sleep dummy",
+						"/scoreboard objectives add sleep_display dummy TimesSlept",
+						"/scoreboard players add @s[tag=!DoNotTrack] sleep 1",
+						"/function alien/updateScore"
+					],
+					"animations": [
+						"alien_sleep.a"
+					],
+					"transitions": [
+						{
+							"awake": "!query.is_sleeping"
+						}
+					]
+				}
+			}
+		}
+	}
+}

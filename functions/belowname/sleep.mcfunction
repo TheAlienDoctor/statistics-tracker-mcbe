@@ -1,0 +1,2 @@
+scoreboard objectives add sleep_display dummy TimesSlept
+scoreboard objectives setdisplay belowname sleep_display

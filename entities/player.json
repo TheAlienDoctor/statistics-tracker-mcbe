@@ -9,13 +9,16 @@
             "scripts": {
                 "animate": [
                     "alien_afk.ac",
-                    "alien_deaths.ac"
+                    "alien_deaths.ac",
+                    "alien_sleep.ac"
                 ]
             },
             "animations": {
                 "alien_afk.ac": "controller.animation.alien.afk",
                 "alien_afk.a": "animation.alien.afk",
-                "alien_deaths.ac": "controller.animation.alien.deaths"
+                "alien_deaths.ac": "controller.animation.alien.deaths",
+                "alien_sleep.ac": "controller.animation.alien.sleep",
+                "alien_sleep.a": "animation.alien.sleep"
             }
         },
         "component_groups": {
