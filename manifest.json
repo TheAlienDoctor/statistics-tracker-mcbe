@@ -1,48 +1,30 @@
 ﻿{
-    "format_version": 2,
-    "header": {
-        "description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
-        "name": "§1Alien's §eStatistic tracker §4(V1.0.0)§r",
-        "uuid": "66010f78-79f2-4dfc-8738-cba45aafb3ac",
-        "version": [
-            1,
-            0,
-            0
-        ],
-        "min_engine_version": [
-            1,
-            19,
-            0
-        ]
-    },
-    "modules": [
-        {
-            "description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
-            "type": "data",
-            "uuid": "a0ea8935-d417-40e1-a3ab-986368ac6a15",
-            "version": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "description": "Gametest Module",
-            "type": "script",
-            "language": "javascript",
-            "uuid": "d8f4c9b3-9ceb-4c51-87fd-31e0cd72c34f",
-            "version": [
-                1,
-                0,
-                0
-            ],
-            "entry": "scripts/index.js"
-        }
-    ],
-    "dependencies": [
-        {
-            "module_name": "mojang-minecraft",
-            "version": "1.0.0-beta"
-        }
-    ]
+	"format_version": 2,
+	"header": {
+		"description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
+		"name": "§1Alien's §eStatistic tracker §4(V1.0.0)§r",
+		"uuid": "66010f78-79f2-4dfc-8738-cba45aafb3ac",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			19,
+			0
+		]
+	},
+	"modules": [
+		{
+			"description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
+			"type": "data",
+			"uuid": "a0ea8935-d417-40e1-a3ab-986368ac6a15",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
 }
