@@ -14,7 +14,7 @@
 				"sleeping": {
 					"on_entry": [
 						"/scoreboard objectives add sleep dummy",
-						"/scoreboard objectives add sleep_display dummy TimesSlept",
+						"/scoreboard objectives add sleep_display dummy Times Slept",
 						"/scoreboard players add @s[tag=!DoNotTrack] sleep 1",
 						"/function alien/updateScore"
 					],

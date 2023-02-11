@@ -1,9 +1,9 @@
 ﻿{
 	"format_version": 2,
 	"header": {
-		"description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
-		"name": "§1Alien's §eStatistic tracker §4(V1.0.0)§r",
-		"uuid": "66010f78-79f2-4dfc-8738-cba45aafb3ac",
+		"description": "§rTracks statistics via scoreboards | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
+		"name": "§1§lAlien's§r §eStatistic tracker §4(RP-V1.0.0)§r",
+		"uuid": "1e759ca0-352b-4d09-95dd-1758bc86747e",
 		"version": [
 			1,
 			0,
@@ -12,19 +12,26 @@
 		"min_engine_version": [
 			1,
 			19,
-			0
+			50
 		]
 	},
 	"modules": [
 		{
-			"description": "§9A behaviour pack for Minecraft Bedrock edition that tracks a ton of stats using scoreboards. §r| §1by TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0§r",
+			"description": "§rTracks statistics via scoreboards | §3© TheAlienDoctor §r| §eDownload from TheAlienDoctor.com §r| §4Version: 1.0.0 §r",
 			"type": "data",
-			"uuid": "a0ea8935-d417-40e1-a3ab-986368ac6a15",
+			"uuid": "1e76ea34-2b69-4578-9ad8-54ea88490c6b",
 			"version": [
 				1,
 				0,
 				0
 			]
 		}
-	]
+	],
+	"metadata": {
+		"authors": [
+			"TheAlienDoctor"
+		],
+		"license": "BSD 3-Clause License",
+		"url": "https://TheAlienDoctor.com"
+	}
 }
