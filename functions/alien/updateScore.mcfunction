@@ -13,3 +13,6 @@ execute as @a run scoreboard players operation @s deaths_display = @s deaths
 
 scoreboard players reset * sleep_display
 execute as @a run scoreboard players operation @s sleep_display = @s sleep
+
+scoreboard players reset * time_display
+execute as @a run scoreboard players operation @s time_display = @s time

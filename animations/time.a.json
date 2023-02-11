@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.alien.time": {
+			"loop": true,
+			"animation_length": 60.0,
+			"timeline": {
+				"0.0": [
+					"/scoreboard objectives add time_display dummy Minutes",
+					"/scoreboard objectives add time dummy",
+					"/scoreboard players add @s[tag=!afk,tag=!DoNotTrack] time 1",
+					"/function alien/updateScore"
+				]
+			}
+		}
+	}
+}

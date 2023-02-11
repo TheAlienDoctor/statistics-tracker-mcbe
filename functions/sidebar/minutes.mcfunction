@@ -1,0 +1,2 @@
+scoreboard objectives add time_display dummy Minutes
+scoreboard objectives setdisplay sidebar time_display

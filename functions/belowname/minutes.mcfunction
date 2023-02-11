@@ -1,0 +1,2 @@
+scoreboard objectives add time_display dummy Minutes
+scoreboard objectives setdisplay belowname time_display
