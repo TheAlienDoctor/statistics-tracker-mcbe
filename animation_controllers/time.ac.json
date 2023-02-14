@@ -5,21 +5,9 @@
             "initial_state": "default",
             "states": {
                 "default": {
-                    "transitions": [
-                        {
-                            "not_playing": "!q.is_alive"
-                        }
-                    ],
 					"animations": [
 						"alien_time.a"
 					]
-                },
-                "not_playing": {
-                    "transitions": [
-                        {
-                            "default": "q.is_alive"
-                        }
-                    ]
                 }
             }
         }
