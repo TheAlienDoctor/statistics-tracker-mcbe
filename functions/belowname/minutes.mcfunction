@@ -1,2 +1,2 @@
-scoreboard objectives add time_display dummy Minutes
-scoreboard objectives setdisplay belowname time_display
+scoreboard objectives add minutes_display dummy Minutes
+scoreboard objectives setdisplay belowname minutes_display

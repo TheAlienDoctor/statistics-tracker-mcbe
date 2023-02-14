@@ -6,7 +6,8 @@
             "states": {
                 "default": {
 					"animations": [
-						"alien_time.a"
+						"alien_minutes.a",
+						"alien_hours.a"
 					]
                 }
             }

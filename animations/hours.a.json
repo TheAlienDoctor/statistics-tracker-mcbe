@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.alien.hours": {
+			"loop": true,
+			"animation_length": 60.0,
+			"timeline": {
+				"00.00": [
+					"/say test"
+				],
+				"60.0": [
+					"/scoreboard objectives add mins_hidden dummy",
+					"/scoreboard players add @s[tag=!afk,tag=!DoNotTrack] mins_hidden 1",
+					"/scoreboard objectives add hours_display dummy Hours",
+					"/scoreboard objectives add hours dummy",
+					"/scoreboard players add @s[tag=!DoNotTrack,scores={mins_hidden=60..}] hours 1",
+					"/scoreboard players reset @s[scores={mins_hidden=60..}] mins_hidden",
+					"/function alien/updateScore"
+				]
+			}
+		}
+	}
+}

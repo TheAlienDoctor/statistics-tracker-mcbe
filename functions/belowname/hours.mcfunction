@@ -1,0 +1,2 @@
+scoreboard objectives add hours_display dummy Hours
+scoreboard objectives setdisplay belowname hours_display

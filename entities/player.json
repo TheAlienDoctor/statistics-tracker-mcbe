@@ -21,7 +21,8 @@
 				"alien_sleep.ac": "controller.animation.alien.sleep",
 				"alien_sleep.a": "animation.alien.sleep",
 				"alien_time.ac": "controller.animation.alien.time",
-				"alien_time.a": "animation.alien.time"
+				"alien_minutes.a": "animation.alien.minutes",
+				"alien_hours.a": "animation.alien.hours"
 			}
 		},
 		"component_groups": {
